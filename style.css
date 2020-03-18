@@ -103,3 +103,99 @@ a:hover {
 .cd-faq__items--slide-in {
     transform: translateX(0);
 }
+
+
+/** NEWSLETTER **/
+
+
+input[type=text] {
+
+    padding: 12px 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    width: 40%;
+    height: 20%;
+    border: 1px solid #000;
+}
+
+input[type=text]:hover {
+    border: 1px solid #000;
+    transition: 6s;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+button1 {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.btn1 {
+    border-radius: 30px;
+    width: 14%;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+
+@media(max-width: 992px) {
+    .btn1 {
+        width: 20%
+    }
+
+    input[type=text] {
+        width: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .btn1 {
+        width: 40%
+    }
+
+    input[type=text] {
+        width: 90%;
+    }
+}
+
+@media(max-width: 440px) {
+    .btn1 {
+        width: 50%;
+        font-size: 18px;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 373px) {
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+
+}
