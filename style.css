@@ -1,0 +1,105 @@
+body {
+    background: #0C3924;
+}
+
+:root {
+    --bg-color: #0C3924;
+    --link-color: #0f4d12;
+    --link-hover-color: #000;
+    --color-4: #000;
+    --color-5: #0f4d12;
+
+    --primary-font: 'Fira Sans Condensed', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+    ;
+    --main-text-color: #000;
+
+    --white-space: 1rem;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--secondary-font);
+}
+
+@media (min-width: 992px) {
+
+    /* END "lg-" 992px and up */
+
+    main {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.text2 {
+    margin-bottom: none;
+}
+
+
+
+.bg-custom-1 {
+    background-color: #85144b;
+
+}
+
+.bg-custom-2 {
+    background-image: linear-gradient(15deg, #0C3924 10%, #80d083 100%);
+
+}
+
+/* very ugly & annoying hover effect*/
+a {
+    transition: background-color 1s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+.active {
+    text-decoration: underline;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.cd-faq__items {
+    /* on mibile, faq contents slides in from the right*/
+    position: fixed;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    right: 0;
+    transform: translateZ(0) translateX(100%);
+    transition: transform .3s;
+}
+
+.cd-faq__items--slide-in {
+    transform: translateX(0);
+}
