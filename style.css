@@ -251,3 +251,26 @@ button1 {
     background: #00b252;
     color: #fff;
 }
+
+
+details {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: white;
+    padding: 1rem;
+}
+
+details[open] summary ~ * {
+    animation: open .5s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+        margin-left: -20px
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0px
+    }
+}
