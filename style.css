@@ -1,5 +1,28 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    margin: 0 auto;
+}
+
+
+::selection {
+    background: #ffeb00;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #0C3924;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 :root {
@@ -213,10 +236,20 @@ button1 {
 
 }
 
+#hero,
+.quote,
+.quote2,
+.quote4 {
+    width: auto;
+}
+
 .home-newsletter {
     padding: 80px 0;
     background: #0C3924;
+
 }
+
+
 
 .home-newsletter .single {
     max-width: 650px;
@@ -224,6 +257,7 @@ button1 {
     text-align: center;
     position: relative;
     z-index: 2;
+    margin-top: 200px;
 }
 
 .home-newsletter .single h2 {
