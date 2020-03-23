@@ -75,8 +75,8 @@ section {
 }
 
 .bg-custom-2 {
-    background-image: linear-gradient(15deg, #0C3924 10%, #80d083 100%);
-
+    background-image: linear-gradient(0deg, rgba(12, 57, 36, 1) 35%, rgba(11, 111, 17, 1) 100%);
+    opacity: 90%
 }
 
 /* very ugly & annoying hover effect*/
